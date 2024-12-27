@@ -1,15 +1,15 @@
 manifest:
   remotes:
-    - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
+    - name: petejohanson
+      url-base: https://github.com/petejohanson
     - name: petejohanson
       url-base: https://github.com/petejohanson
     - name: mctechnology17
       url-base: https://github.com/mctechnology17
   projects:
     - name: zmk
-      remote: zmkfirmware
-      revision: main
+      remote: petejohanson
+      revision: power/domains-and-device-runtime
       import: app/west.yml
     - name: zmk-nice-oled
       remote: mctechnology17
